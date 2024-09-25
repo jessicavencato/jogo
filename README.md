@@ -1,4 +1,4 @@
-# Nome do Projeto
+# JOGO
 
 Descrição breve do que o projeto faz e seu objetivo.
 
@@ -20,6 +20,7 @@ Parâmetros: Nenhum.
 Retorno: Nenhum.
 
 Exemplo de uso:
+
 def mostrar_menu():
     font = pygame.font.Font(None, 74)
     texto = font.render("Pressione Enter para Jogar", True, white)
