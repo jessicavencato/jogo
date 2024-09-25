@@ -39,6 +39,17 @@ até que o jogador feche a janela.
 
 **Parâmetros**: Nenhum.
 
+**Exemplo de uso**:
+``python
+def iniciar_jogo():
+    personagem = Personagem()
+    inimigos = [Inimigo() for _ in range(5)]
+    
+    while True:
+        # Lógica do jogo
+        pygame.display.flip()
+```
+
 **Retorno**: Nenhum.
 
 
