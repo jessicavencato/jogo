@@ -22,12 +22,12 @@ predefinida. O menu serve como uma interface de espera até que o jogador esteja
 **Retorno**: Nenhum.
 
 **Exemplo de uso**:
-```python
+
 def mostrar_menu():
     font = pygame.font.Font(None, 74)
     texto = font.render("Pressione Enter para Jogar", True, white)
     screen.blit(texto, (screen_width // 2 - 300, screen_height // 2 - 50))
-```
+
 
 - Função 2: iniciar_jogo()
 
@@ -42,7 +42,7 @@ até que o jogador feche a janela.
 **Retorno**: Nenhum.
 
 **Exemplo de uso**:
-``python
+
 def iniciar_jogo():
     personagem = Personagem()
     inimigos = [Inimigo() for _ in range(5)]
