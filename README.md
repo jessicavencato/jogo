@@ -39,6 +39,8 @@ até que o jogador feche a janela.
 
 **Parâmetros**: Nenhum.
 
+**Retorno**: Nenhum.
+
 **Exemplo de uso**:
 ``python
 def iniciar_jogo():
@@ -50,7 +52,6 @@ def iniciar_jogo():
         pygame.display.flip()
 ```
 
-**Retorno**: Nenhum.
 
 
 
