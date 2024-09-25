@@ -12,22 +12,22 @@ Descrição breve do que o projeto faz e seu objetivo.
 
 - Função 1: mostrar_menu()
 
-Descrição:
+**Descrição**:
 
 Essa função exibe o menu inicial na tela, onde o jogador é instruído a pressionar "Enter" para iniciar o jogo. Ela desenha um texto centralizado na tela utilizando uma fonte
 predefinida. O menu serve como uma interface de espera até que o jogador esteja pronto para iniciar o jogo.
 
-Parâmetros: Nenhum.
+**Parâmetros**: Nenhum.
 
-Retorno: Nenhum.
+**Retorno**: Nenhum.
 
-Exemplo de uso:
-
+**Exemplo de uso**:
+```python
 def mostrar_menu():
     font = pygame.font.Font(None, 74)
     texto = font.render("Pressione Enter para Jogar", True, white)
     screen.blit(texto, (screen_width // 2 - 300, screen_height // 2 - 50))
-
+```
 
 - Função 2: iniciar_jogo()
 
@@ -42,6 +42,7 @@ até que o jogador feche a janela.
 **Retorno**: Nenhum.
 
 **Exemplo de uso**:
+``python
 def iniciar_jogo():
     personagem = Personagem()
     inimigos = [Inimigo() for _ in range(5)]
@@ -49,7 +50,7 @@ def iniciar_jogo():
     while True:
         # Lógica do jogo
         pygame.display.flip()
-
+```
 
 - Função 3: main()
 
