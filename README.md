@@ -16,8 +16,11 @@ Descrição breve do que o projeto faz e seu objetivo.
 A função iniciar_jogo() é responsável por inicializar os componentes principais do jogo, como a tela e as variáveis de controle. Ela configura a tela onde o jogo será exibido, 
 define os parâmetros iniciais (como a posição do jogador, o fundo e os elementos da interface) e dá início ao loop principal de execução. Essa função prepara o ambiente do jogo 
 antes que a ação comece.
+
 **Parâmetros**: Nenhum.
+
 **Retorno**: Nenhum.
+
 **Exemplo de uso**:
 def iniciar_jogo():
     pygame.init()
