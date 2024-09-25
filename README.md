@@ -13,6 +13,7 @@ Descrição breve do que o projeto faz e seu objetivo.
 - Função 1: mostrar_menu()
 
 Descrição:
+
 Essa função exibe o menu inicial na tela, onde o jogador é instruído a pressionar "Enter" para iniciar o jogo. Ela desenha um texto centralizado na tela utilizando uma fonte
 predefinida. O menu serve como uma interface de espera até que o jogador esteja pronto para iniciar o jogo.
 
