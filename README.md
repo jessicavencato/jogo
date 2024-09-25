@@ -52,6 +52,7 @@ def iniciar_jogo():
         pygame.display.flip()
 ```
 
+
 - Função 3: main()
 
 **Descrição**:  
