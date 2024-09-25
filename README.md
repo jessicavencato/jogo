@@ -51,10 +51,6 @@ def iniciar_jogo():
         # Lógica do jogo
         pygame.display.flip()
 ```
-
-
-
-
 - Função 3: main()
 
 **Descrição**:  
