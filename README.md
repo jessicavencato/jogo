@@ -1,7 +1,9 @@
 # JOGO
 
-Descrição breve do que o projeto faz e seu objetivo.
+Este é um jogo de aventura simples desenvolvido em Python utilizando a biblioteca PyGame. O objetivo do jogo é controlar um personagem na tela enquanto evita inimigos que surgem aleatoriamente. O jogador pode movimentar o personagem usando as setas do teclado, e o jogo começa a partir de um menu inicial onde o jogador pode pressionar "Enter" para iniciar.
 
+Objetivo
+O objetivo do projeto é demonstrar a criação de um jogo básico com movimentação, desenho de objetos na tela, e interação com o jogador, além de aplicar conceitos de programação como classes, loops e detecção de eventos. O projeto também serve como uma introdução à biblioteca PyGame para criar jogos 2D.
 
 ## Tecnologias Usadas
 - Python
